@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <>
       <Box h="100%" m={16} rounded={"lg"}>
-        <Heading p={8}>Sillas</Heading>
+        <Heading p={8}>{"Chair's"}</Heading>
         <Flex flexWrap="wrap" justify="center">
           <Stack direction="row" spacing={8}>
             <Card />
