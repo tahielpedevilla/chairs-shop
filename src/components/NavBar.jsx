@@ -16,10 +16,10 @@ const NavBar = () => {
       <Flex boxShadow="lg" justify="space-around" p={4}>
         <Heading>{"Walla´s"}</Heading>
         <Stack direction="row" spacing={6}>
-          <Button as={Link} to={Products} variant="link">
+          <Button as={Link} to="/products" variant="link">
             Products
           </Button>
-          <Button as={Link} to={Contact} variant="link">
+          <Button as={Link} to="/contact" variant="link">
             Contact
           </Button>
           <IconButton icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />} onClick={toggleColorMode} />
